@@ -10,6 +10,7 @@ images=(
     k8s.gcr.io/coredns:1.2.2
 
     gcr.io/kubernetes-helm/tiller:v2.11.0
+    k8s.gcr.io/kubernetes-dashboard-amd64:v1.10.0
 )
 
 for image in ${images[@]} ; do
