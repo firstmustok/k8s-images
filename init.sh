@@ -11,6 +11,8 @@ images=(
 
     gcr.io/kubernetes-helm/tiller:v2.11.0
     k8s.gcr.io/kubernetes-dashboard-amd64:v1.10.0
+	
+	k8s.gcr.io/defaultbackend:1.3
 )
 
 for image in ${images[@]} ; do
